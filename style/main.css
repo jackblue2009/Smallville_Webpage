@@ -1,0 +1,91 @@
+/*
+THE MAIN STYLE SHEET FILE OF THE SMALLVILLE WEBSTIE
+CREATED AND WRITTEN BY ABDULRAHMAN BUCHEERI
+THIS IS CREATED MAINLY FOR EDUCATIONAL AND PRACTICE PURPOSES
+*/
+
+body {
+	background: -webkit-linear-gradient(#FF0000, #FFFFFF);
+	color: #212121;
+	margin: 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #FF0000;
+}
+p {
+	color: #636363;
+}
+#container {
+	width: 750px;
+	margin: 0 auto;
+	border: 2px solid #000000;
+	background-color: #FFFFFF;
+}
+.break {
+	clear: both;
+}
+.current {
+	font-size: 1.2em;
+}
+#head1 {
+	float: left;
+}
+#head2 {
+	float: right;
+}
+#subtitle {
+	color: #212121;
+	font-style: italic;
+	font-size: 1.3em;
+	position: absolute;
+	right: 330px;
+	top: 25px;
+}
+#topMenu {
+	width: 100%;
+	height: 45px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	margin-top: 15px;
+	background-color: #FF0000;
+}
+#topMenu ul {
+	list-style-type: none;
+	margin: 0;
+}
+#topMenu li {
+	float: left;
+	margin-left: 70px;
+	padding-top: 10px;
+	font-size: 1em;
+}
+#topMenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+#topMenu a:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#content {
+	padding-top: 20px;
+}
+.pic {
+	float: right;
+}
+#footer {
+	border-top: 2px solid #000000;
+	background-color: #FF0000;
+	text-align: center;
+}
+#footer p {
+	color: #FFFFFF;
+}
